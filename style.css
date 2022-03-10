@@ -6,24 +6,29 @@
 .page {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .calc {
     border-style: solid;
+    background-color: lightgray;
 }
 
-.display {
+.displayResult {
     border-style: solid;
     margin: 10px;
     padding: 10px;
     text-align: end;
     font-size: 30px;
+    height: 40px;
+    background-color: white;
 }
 
 .buttons {
     border-style: solid;
     display: flex;
     flex-direction: column;
+    background-color: lightgray;
 }
 
 .clearBtn {
@@ -32,18 +37,21 @@
     text-align: end;
     margin: 5px;
     margin-left: auto;
+    background-color: lightcoral;
 }
 
 .upperButtons {
     display: flex;
     flex-direction: column;
+    background-color: lightgray;
 }
 
 .lowerButtons {
-    height: 550px;
-    width: 400px;
+    height: 250px;
+    width: 350px;
     display: flex;
     justify-content: space-between;
+    background-color: lightgray;
 }
 
 .numbers {
@@ -71,6 +79,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: aquamarine;
 }
 
 .operations {
@@ -90,4 +99,5 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: aqua;
 }
