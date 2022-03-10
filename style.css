@@ -14,7 +14,7 @@
     background-color: lightgray;
 }
 
-.displayResult {
+.display {
     border-style: solid;
     margin: 10px;
     padding: 10px;
@@ -22,6 +22,12 @@
     font-size: 30px;
     height: 40px;
     background-color: white;
+}
+
+.displayPrev {
+    font-size: 10px;
+    padding-right: 30px;
+    text-align: end;
 }
 
 .buttons {
